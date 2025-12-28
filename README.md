@@ -1,5 +1,5 @@
 # Dual-Boot-Win11-CachyOS
-How to Dual Boot Windows 11 and CachyOS Guide (2025/2026)
+How to Dual Boot Windows 11 25H2 and CachyOS (2025)
 
 When trying to install CachyOS alongside a Windows 11 install, the installation of CachyOS will fail due to the size of the 'System EFI Partiton' being too small.
 
