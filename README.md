@@ -34,7 +34,7 @@ Steps:
 
 9) Complete the Windows installation, when you get to the desktop feel free to complete initial setup steps, installing drivers and software if required.
 
-Once you have finished the Windows 11 installation (and customised the system if you wish), proceed to boot from the CachyOS installation USB stick, and during the installation, choose 'Install alongside Windows' and drag the slider to the required partition size.
+Once you have finished the Windows 11 installation (and customised the system if you wish), proceed to boot from the CachyOS installation USB stick, and during the installation, choose 'Install alongside Windows' and drag the slider to the required partition size.<br/>
 (I used the system-d boot loader FYI. The others should work, but I know this works perfectly...)
 
 This will fix the error from appearing due to Windows only creating a 128mb/256mb System EFI Parition.
