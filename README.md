@@ -16,7 +16,7 @@ Steps:
 2) Boot from the Windows 11 USB Installation USB Stick.
 3) When the Windows 11 Installation GUI appears, press SHIFT+10 to open a Command Prompt window.
 4) Type these specific commands to create a 2GB 'System EFI Partition':
-
+'''
   diskpart
   
   list disk
@@ -30,7 +30,7 @@ Steps:
   format quick fs=fat32
   
   exit
-  
+'''  
 6) Close the Command Prompt window and proceed with the installation.
 7) When you get to the section on what HDD to select, you will have two partitions, select the one that says 'unallocated space'
 
