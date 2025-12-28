@@ -21,7 +21,7 @@ Steps:
   
   list disk
   
-  select disk x (where x is the number of the harddrive, eg: 'select disk0')
+  select disk x (where x is the number of the harddrive, eg: 'select disk 0')
   
   convert gpt
   
@@ -33,8 +33,8 @@ Steps:
   
 6) Close the Command Prompt window and proceed with the installation.
 7) When you get to the section on what HDD to select, you will have two partitions, select the one that says 'unallocated space'
-  disk0 - 2.0gb System EFI Partition
-  disk0 - unallocated space (xxxGB free space) <-------- Install to this partition.
+  disk 0 - 2.0gb System EFI Partition
+  disk 0 - unallocated space (xxxGB free space) <-------- Install to this partition.
 8) Complete the Windows installation, when you get to the desktop feel free to complete initial setup steps, installing drivers and software if required.
 
 Once you have finished the Windows 11 installation (and customised the system if you wish), proceed to boot from the CachyOS installation USB stick, and during the installation, choose 'Install alongside Windows' and drag the slider to the required partition size.
