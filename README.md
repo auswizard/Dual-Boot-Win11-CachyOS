@@ -8,7 +8,7 @@ These are the steps required to make sure CachyOS will install alongside a FRESH
 Prerequisites:
 - 1x Bootable USB stick with a Windows 11 installation from ISO file (I used Windows 11 25H2 from UUP Dump)
 - 1x Bootable USB sick with CachyOS installation from ISO file (I used cachyos-desktop-linux-251129.iso)
-  (You can put both ISO's on the 1 USB stick using Ventoy if you prefer, it works fine aswell)
+  (Use rufus to make bootable USB sticks from ISO) // (You can put both ISO's on the 1 USB stick using Ventoy if you prefer, it works fine aswell!)
 
 Steps:
 1) Make sure the hard drive is formatted first and is completely blank. You can boot from the CachyOS ISO and do this inside the live environment. I did mine in the BIOS.
