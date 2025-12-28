@@ -35,6 +35,7 @@ Steps:
 7) When you get to the section on what HDD to select, you will have two partitions, select the one that says 'unallocated space'
 
   disk 0 - 2.0gb System EFI Partition
+
   disk 0 - unallocated space (xxxGB free space) <-------- Install to this partition.
 
 9) Complete the Windows installation, when you get to the desktop feel free to complete initial setup steps, installing drivers and software if required.
