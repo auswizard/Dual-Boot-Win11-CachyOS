@@ -17,20 +17,13 @@ Steps:
 3) When the Windows 11 Installation GUI appears, press SHIFT+10 to open a Command Prompt window.
 4) Type these specific commands to create a 2GB 'System EFI Partition':
 
-  **diskpart**
-  
-  **list disk**
-  
-  **select disk x** (where x is the number of the harddrive, eg: 'select disk 0')
-  
-  **convert gpt**
-  
-  **create partition efi size=2048**
-  
-  **format quick fs=fat32**
-  
-  **exit**
-
+  **diskpart**<br/>
+  **list disk**<br/>
+  **select disk x** (where x is the number of the harddrive, eg: 'select disk 0')<br/>
+  **convert gpt**<br/>
+  **create partition efi size=2048**<br/>
+  **format quick fs=fat32**<br/>
+  **exit**<br/>
 6) Close the Command Prompt window and proceed with the installation.
 7) When you get to the section on what HDD to select, you will have two partitions, select the one that says 'unallocated space'
 
