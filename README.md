@@ -24,6 +24,7 @@ Steps:
   **create partition efi size=2048**<br/>
   **format quick fs=fat32**<br/>
   **exit**<br/>
+
 6) Close the Command Prompt window and proceed with the installation.
 7) When you get to the section on what HDD to select, you will have two partitions, select the one that says 'unallocated space'
 
